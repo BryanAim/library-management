@@ -148,6 +148,7 @@ foreach($results as $result)
                         </div>
                     </div>
                     <!--End Advanced Tables -->
+                    <button class="btn btn-primary" onClick="goBack()" >Go Back</button>
                 </div>
             </div>
 
@@ -169,6 +170,13 @@ foreach($results as $result)
     <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
       <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
+    <!-- GO back function Script -->
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    
 </body>
 </html>
 <?php } ?>

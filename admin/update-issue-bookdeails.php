@@ -180,6 +180,7 @@ echo htmlentities($result->fine);
                             </div>
                         </div>
                             </div>
+                            <button class="btn btn-primary" onClick="goBack()" >Go Back</button>
 
         </div>
    
@@ -195,6 +196,12 @@ echo htmlentities($result->fine);
     <script src="assets/js/bootstrap.js"></script>
       <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
+    <!-- GO back function Script -->
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
 
 </body>
 </html>
