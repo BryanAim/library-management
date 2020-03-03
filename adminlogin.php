@@ -90,6 +90,7 @@ echo "<script>alert('Invalid Details');</script>";
                             </form>
                         </div>
                     </div>
+                    <button  class="btn btn-info" onclick="goBack()">Go Back </button>
                 </div>
             </div>
             <!---LOGIN PABNEL END-->
@@ -106,6 +107,14 @@ echo "<script>alert('Invalid Details');</script>";
     <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
     </script>
+    
+    <!-- Go BacK Button -->
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
 </body>
 
 </html>

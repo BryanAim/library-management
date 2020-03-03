@@ -119,10 +119,11 @@ Change Password
 <input class="form-control"  type="password" name="confirmpassword" autocomplete="off" required  />
 </div>
 
- <button type="submit" name="change" class="btn btn-info">Chnage </button> 
+ <button type="submit" name="change" class="btn btn-info">Change </button> 
 </form>
  </div>
 </div>
+<button class="btn btn-info" onClick="goBack()" >Go Back </button> 
 </div>
 </div>  
 <!---LOGIN PABNEL END-->            
@@ -138,6 +139,14 @@ Change Password
     <script src="assets/js/bootstrap.js"></script>
       <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
+    
+        <!-- Go BacK Button -->
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
 </body>
 </html>
 <?php } ?>
