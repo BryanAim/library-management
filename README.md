@@ -6,7 +6,7 @@ In order to use this project you need to instal LAMP/WAMP and create folder libr
 
 [comment]: <> (And also you can check out my project live that i have hosted :)
 
-[comment]: <> (https://aleksandartrifunovic1.000webhostapp.com/)
+[comment]: <> (https://isale-library-management.000webhostapp.com/)
 
 [//]: # (If you want to check out admin panel you need to have following credentials :)
 

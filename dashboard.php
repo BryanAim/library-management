@@ -14,7 +14,7 @@ else{?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Online Library Management System | User Dash Board</title>
+    <title>Library Management System | User Dash Board</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -33,7 +33,7 @@ else{?>
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">ADMIN DASHBOARD</h4>
+                <h4 class="header-line">USER DASHBOARD</h4>
                 
                             </div>
 

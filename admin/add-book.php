@@ -44,7 +44,7 @@ header('location:manage-books.php');
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Online Library Management System | Add Book</title>
+    <title>Library Management System | Add Book</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -132,7 +132,7 @@ foreach($results as $result)
 
  <div class="form-group">
  <label>Price<span style="color:red;">*</span></label>
- <input class="form-control" type="text" name="price" autocomplete="off"   required="required" />
+ <input class="form-control" type="number" name="price" autocomplete="off"   required="required" />
  </div>
 <button type="submit" name="add" class="btn btn-info">Add </button>
 

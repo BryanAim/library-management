@@ -2,7 +2,7 @@
        <div class="container">
            <div class="row">
                <div class="col-md-12">
-                   <p>&copy;2019 Online library management system</p>
+                   <p>&copy;2020 Library Management System</p>
                </div>
 
            </div>
